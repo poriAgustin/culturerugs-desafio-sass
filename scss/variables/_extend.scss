@@ -1,0 +1,26 @@
+%estiloParrafo{
+    text-align: center;
+    font-family: monospace;
+    font-size: large;
+}
+
+%banner{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+// Mixin
+
+@mixin parrafoEstilo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@mixin header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: fixed;
+    width: 100vw;
+}

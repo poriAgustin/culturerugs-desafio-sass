@@ -12,6 +12,17 @@ body {
   background-position: center;
 }
 
+main .main__txt {
+  text-align: center;
+  font-family: monospace;
+  font-size: large;
+}
+
+main .main__banner {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
 header {
   background-color: #FBFBFB;
   display: flex;
@@ -44,10 +55,6 @@ main {
   overflow: hidden;
   min-width: 85vw;
 }
-main .main__banner {
-  max-width: 100vw;
-  max-height: 100vh;
-}
 main .main__container {
   display: flex;
   flex-direction: column;
@@ -61,7 +68,6 @@ main .main__titulo {
 main .main__txt {
   color: #B8DBD9;
   margin-top: 30px;
-  font-size: large;
 }
 main .main__container2 {
   display: flex;

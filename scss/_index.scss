@@ -33,6 +33,12 @@ main{
     .main__banner{
         @extend %banner;
     }
+    .main__breadcrumb{
+        margin: 30px;
+        color: $colorSecundario;
+        list-style: none;
+        font-family: monospace;
+    }
     .main__container{
         display: flex;
         flex-direction: column;

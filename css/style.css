@@ -55,6 +55,12 @@ main {
   overflow: hidden;
   min-width: 85vw;
 }
+main .main__breadcrumb {
+  margin: 30px;
+  color: #B8DBD9;
+  list-style: none;
+  font-family: monospace;
+}
 main .main__container {
   display: flex;
   flex-direction: column;

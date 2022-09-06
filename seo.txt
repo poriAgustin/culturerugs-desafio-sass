@@ -1,0 +1,8 @@
+1- Coloque etiquetas meta keywords en el HTML;
+index: alfombras, para tu casa, estilo, decoracion;
+2-Coloque etiquetas meta description en el HTML;
+index:Culture Rugs | Inicio;
+3-Coloque breadCrumb en el HTML;
+index: Home;
+
+
